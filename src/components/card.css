@@ -109,10 +109,14 @@
         }
     }
     
-    @media screen and (max-width: 480px) {
+      @media screen and (max-width: 500px) {
         /* Adjust for mobile devices */
         .card {
             width: 90%;
+            flex-direction: column;
             /* Take up 90% of the container width */
+        }
+        .card img {
+            width: 100%;
         }
     }
