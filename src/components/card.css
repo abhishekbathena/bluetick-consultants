@@ -1,0 +1,117 @@
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .infopart {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 15px;
+    }
+    
+    .servicecard {
+        display: flex;
+    }
+    
+    .card {
+        width: 100%;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 20px;
+    }
+    
+    .card img {
+        width: 200px;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-content {
+        padding: 20px;
+    }
+    
+    .card-content h2 {
+        margin-top: 0;
+    }
+    
+    .card-content p {
+        margin-bottom: 0;
+    }
+    
+    .tagbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 1px solid;
+        /* Set border color */
+        border-radius: 10px;
+        /* Add border radius */
+        padding: 10px;
+        /* Added padding to the tagbox */
+        width: 50%;
+        /* Adjust width as needed */
+        margin: 0 auto;
+        /* Center the tagbox */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Add box shadow */
+    }
+    
+    .tag-header {
+        padding: 7px;
+        border-bottom: 1px solid;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .tag-item {
+        width: calc(5%- 5px);
+        /* 25% width for 4 items per row with margin */
+        margin: 5px;
+        /* Adjust margin as needed */
+        text-align: center;
+    }
+    
+    .tag-item a {
+        display: block;
+        border-radius: 40px;
+        background-image: url('bg1.jpeg');
+        padding: 5px;
+        /* Added padding to the anchor element */
+        text-decoration: none;
+        color: white;
+        transition: border-color 0.3s;
+        /* Adding transition for smooth effect */
+    }
+    
+    .tag-item a:hover {
+        border-color: white;
+        /* Change border color on hover */
+    }
+    
+    @media screen and (max-width: 1000px) {
+        /* Adjust for tablets */
+        .card {
+            width: 80%;
+            /* Take up 80% of the container width */
+        }
+        .servicecard {
+            flex-direction: column;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        /* Adjust for mobile devices */
+        .card {
+            width: 90%;
+            /* Take up 90% of the container width */
+        }
+    }

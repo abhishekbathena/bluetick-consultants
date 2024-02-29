@@ -1,0 +1,28 @@
+.primarypart {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bg1.jpeg');
+    color: white;
+}
+
+.secondpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fullcolor {
+    background-image: url('bg1.jpeg');
+    color: white
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstdiv div {
+    margin-bottom: 10px;
+}
