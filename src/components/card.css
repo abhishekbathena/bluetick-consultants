@@ -68,7 +68,7 @@
     }
     
     .tag-item {
-        width: calc(25%- 15px);
+        width: calc(15%- 15px);
         /* 25% width for 4 items per row with margin */
         margin: 5px;
         /* Adjust margin as needed */
@@ -80,7 +80,7 @@
         border-radius: 40px;
         background-image: url('bg1.jpeg');
         padding: 5px;
-        margin:10px;
+      
         /* Added padding to the anchor element */
         text-decoration: none;
         color: white;
