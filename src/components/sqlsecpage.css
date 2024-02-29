@@ -2,7 +2,8 @@
         display: flex;
         justify-content: space-between;
     }
-    
+
+
     .blogsinfo {
         flex: 1;
         display: flex;
