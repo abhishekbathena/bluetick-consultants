@@ -67,28 +67,26 @@
         text-align: center;
     }
     
-    .tag-item {
-        width: calc(15%-35px);
-        /* 25% width for 4 items per row with margin */
-        margin: 5px;
-        /* Adjust margin as needed */
-        text-align: center;
-    }
-    
-    .tag-item a {
-        display: block;
-        border-radius: 40px;
-        background-image: url('bg1.jpeg');
-        padding: 5px;
-        width:30px;
-      
-        /* Added padding to the anchor element */
-        text-decoration: none;
-        color: white;
-        transition: border-color 0.3s;
-        /* Adding transition for smooth effect */
-    }
-    
+.tag-item {
+    width: calc(33.33% - 10px); /* Adjusted width for three items per row with margin */
+    margin: 5px;
+    /* Adjust margin as needed */
+    text-align: center;
+}
+
+.tag-item a {
+    display: block;
+    border-radius: 40px;
+    background-image: url('bg1.jpeg');
+    padding: 5px;
+    width: 100%; /* Adjusted width to fill the entire space of .tag-item */
+    /* Added padding to the anchor element */
+    text-decoration: none;
+    color: white;
+    transition: border-color 0.3s;
+    /* Adding transition for smooth effect */
+}
+
     .tag-item a:hover {
         border-color: white;
         /* Change border color on hover */
