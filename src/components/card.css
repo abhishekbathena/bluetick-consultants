@@ -68,7 +68,7 @@
     }
     
     .tag-item {
-        width: calc(50%-50px);
+        width: calc(25%-35px);
         /* 25% width for 4 items per row with margin */
         margin: 5px;
         /* Adjust margin as needed */
