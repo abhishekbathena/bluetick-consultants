@@ -79,6 +79,7 @@
         display: block;
         border-radius: 40px;
         background-image: url('bg1.jpeg');
+        width:50px;
         padding: 7px;
         /* Added padding to the anchor element */
         text-decoration: none;
