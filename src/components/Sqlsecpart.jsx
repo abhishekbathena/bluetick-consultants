@@ -123,4 +123,4 @@ const Sqlsecpart = (props) => {
   )
 }
 
-export default Sqlsecpart
+export default Sqlsecpart;
